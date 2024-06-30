@@ -16,7 +16,7 @@ const AdminTable = () => {
         minHeight: "80vh",
       }}
     >
-      <Typography variant="h3">Admin Table</Typography>
+      <Typography variant="h3">Admin Table(MUI data grid)</Typography>
       <Box sx={{ height: 400, width: 900, margin: 5 }}>
         <DataGrid
           rows={rows}
